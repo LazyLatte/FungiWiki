@@ -5,11 +5,7 @@ import axios from 'axios';
 // Develop server URL
 //const fungiBaseUrl = 'http://localhost:3000/api';
 const fungiBaseUrl = 'http://Fungi-wiki-dev.us-west-2.elasticbeanstalk.com/api';
-// Staging server URL
-//const questionBaseUrl = 'http://weathermood-db-13.us-west-2.elasticbeanstalk.com/api';
-//const postBaseUrl = '123';
-// Production server URL
-// const postBaseUrl = 'http://weathermood-production.us-west-2.elasticbeanstalk.com/api';
+
 
 export function listFungi(search) {
     let url = `${fungiBaseUrl}/search`;

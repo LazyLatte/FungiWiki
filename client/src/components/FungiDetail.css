@@ -1,0 +1,41 @@
+.fungi-detail{
+
+  min-height: 50rem;
+  padding-top: 2rem;
+  opacity: 1;
+}
+.fungi-detail.masking{
+  opacity: 0;
+}
+.fungi-detail .container{
+  background-color: rgba(245, 245, 220, 0.8);
+  border: solid DarkGreen;
+  border-radius: 0.5rem;
+  border-width: 0.3rem ;
+  min-height: 40rem;
+}
+
+.fungi-detail .identification{
+  margin-left: 1rem;
+}
+
+.fungi-detail .name{
+  font-size: 4rem;
+}
+
+.fungi-detail .scientific_name{
+  font-size: 2rem;
+  font-style: italic; 
+}
+.fungi-detail .img{
+  margin-top: 1rem;
+  width: 40%;
+  border-radius: 1rem;
+  border-color: orange;
+  border-width: 0.3rem;
+  padding: 0rem;
+  margin-left:1.5rem !important;
+}
+.fungi-detail .content{
+  padding: 1rem 1rem;
+}

@@ -1,0 +1,19 @@
+.fungi-info{
+}
+
+.fungi-info .fungi-card{
+  border-width: 0.3rem;
+  border-color: DarkViolet;
+
+}
+.fungi-info .fungi-img{
+  max-height: 9.5rem;
+  min-height: 9.5rem;
+  padding: 0;
+  border-bottom-width: 0.2rem;
+  border-color: DarkViolet;
+  border-radius: 0;
+}
+.wow {
+  visibility: visible !important;
+}

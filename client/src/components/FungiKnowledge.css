@@ -1,0 +1,35 @@
+.fungi-knowledge{
+
+}
+
+
+.modal-content {
+
+    margin-top: 5rem;
+    background-color: LemonChiffon !important;
+    border-style: ridge !important;
+    border-width: 10px !important;
+    border-color: gold !important;
+    border-radius: 8px !important;
+}
+.modal-content .row{
+  margin-bottom: 2rem;
+}
+.modal-content .text{
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  font-family: Microsoft JhengHei;
+  font-family: -apple-system, PingFang;
+}
+.modal-content .img{
+  width: 10rem !important;
+  height: 10rem !important;
+}
+.modal-content .next{
+  margin: 2.5rem auto;
+  width: 88%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+}

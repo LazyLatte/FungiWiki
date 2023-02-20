@@ -1,0 +1,51 @@
+.search-result{
+
+
+  padding-top : 4rem;
+  padding-bottom: 4rem;
+
+  opacity: 1;
+
+}
+.search-result.masking{
+  opacity: 0;
+}
+.search-result .container{
+  height: 40rem;
+
+  padding-top:2rem;
+  padding-bottom: 3rem;
+  background-color: rgba(245, 245, 220, 0.8);
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 0.5rem;
+  border-color: white;
+
+}
+.search-result .infinte-scroll{
+  max-height: 30rem;
+}
+.search-result .tags{
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  border-bottom-color: grey;
+  border-bottom-style: solid;
+  border-bottom-width: 0.3rem;
+
+}
+.search-result .tag{
+  color: Gold;
+  background-color: DarkBlue;
+  border-radius: 2rem;
+  transform: scale(0.8);
+
+}
+.search-result .r{
+margin: 1rem;
+}
+.search-result .c{
+  margin: 0rem;
+
+}

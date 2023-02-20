@@ -118,55 +118,7 @@ function getByName(name){
   `
   return db.one(sql, [name]);
 }
-/*
-function create(subject, content, answer, isMultipleChoice, choice) {
 
-  if(isMultipleChoice){
-
-    const sql = `
-
-
-        INSERT INTO questions (subject, content, answer, "isMultipleChoice",
-          "A", "B", "C", "D", "E")
-        VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9)
-        RETURNING *
-    `;
-    return db.one(sql, [subject, content, answer, isMultipleChoice,
-      choice.A, choice.B, choice.C, choice.D, choice.E]);
-  }else{
-
-    const sql = `
-        INSERT INTO questions ($<this:name>)
-        VALUES ($<subject>, $<content>, $<answer>)
-        RETURNING *
-    `;
-    return db.one(sql, {subject, content, answer});
-  }
-
-}
-
-function update(id, subject, content, answer, isMultipleChoice, choice, isAssign) {
-      const sql = `
-          UPDATE questions
-          SET subject=$1, content=$2, answer=$3, "isMultipleChoice"=$4,
-          "A"=$5, "B"=$6, "C"=$7, "D"=$8, "E"=$9, "isAssign"=$10
-
-          WHERE id=${id}
-          RETURNING *
-
-      `;
-      return db.one(sql, [subject, content, answer, isMultipleChoice,
-        choice.A, choice.B, choice.C, choice.D, choice.E, isAssign]);
-}
-
-function del(id) {
-      const sql = `
-          DELETE FROM questions
-          WHERE id=${id}
-      `;
-      return db.none(sql);
-}
-*/
 module.exports = {
     list,
     listByCategory,

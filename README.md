@@ -1,2 +1,2 @@
 # FungiWiki
-# Last update : 2022 Jan
+Last update : 2022 Jan

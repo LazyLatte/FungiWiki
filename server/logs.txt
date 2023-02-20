@@ -1,0 +1,287 @@
+1607190782 ERROR  error: column "search" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1607190886 ERROR  error: column "search" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1607191022 ERROR  error: column "search" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1607191084 ERROR  error: column "search" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1607931742 ERROR  Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+1607931762 ERROR  Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+1607931776 ERROR  Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+1607931870 ERROR  Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+1608624637 ERROR  Error: connect ECONNREFUSED 127.0.0.1:5432
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)
+1609230182 ERROR  TypeError: fungiModel.listByCategory is not a function
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:28:16
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611069743 ERROR  Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+1611072567 ERROR  Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
+1611175842 ERROR  ReferenceError: Cannot access 'sql' before initialization
+    at Object.list (/Users/henry/Desktop/Fungi/server/src/model/fungi.js:23:24)
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:16
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+1611176829 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611176863 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611176884 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611176939 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611176961 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611177350 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611178526 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611179541 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611179631 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611179690 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611179721 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611179749 ERROR  TypeError: Cannot read property 'then' of undefined
+    at /Users/henry/Desktop/Fungi/server/src/routers/fungi.js:18:23
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/index.js:275:10)
+    at module.exports (/Users/henry/Desktop/Fungi/server/src/middleware/access-controller.js:14:5)
+    at Layer.handle [as handle_request] (/Users/henry/Desktop/Fungi/server/node_modules/express/lib/router/layer.js:95:5)
+1611183503 ERROR  error: column "白色" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611183643 ERROR  error: column "白菌" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611183691 ERROR  error: column "白菌" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611183789 ERROR  error: function instr(unknown, text) does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611183816 ERROR  error: column "白菌" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611183863 ERROR  error: column "白菌" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611183886 ERROR  error: column "白菌" does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611183905 ERROR  error: function charundex(text, unknown) does not exist
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611185642 ERROR  error: syntax error at or near "PRINT"
+    at Connection.parseE (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:539:11)
+    at Connection.parseMessage (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:366:17)
+    at Socket.<anonymous> (/Users/henry/Desktop/Fungi/server/node_modules/pg/lib/connection.js:105:22)
+    at Socket.emit (events.js:310:20)
+    at addChunk (_stream_readable.js:286:12)
+    at readableAddChunk (_stream_readable.js:268:9)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+1611270643 ERROR  Error: getaddrinfo ENOTFOUND undefined
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:64:26)
